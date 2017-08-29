@@ -2,19 +2,21 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { MusicComponent } from './src/app/music/music.component';
-import { MusicListComponent } from './src/app/music-list/music-list.component';
-import { MusicSearchComponent } from './src/app/music-search/music-search.component';
+import {MusicListComponent} from './music-list/music-list.component';
+import {MusicSearchComponent} from './music-search/music-search.component';
+import {HttpModule} from '@angular/http';
+import {MusicAdminComponent} from './music-admin/music-admin.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MusicComponent,
     MusicListComponent,
-    MusicSearchComponent
+    MusicSearchComponent,
+    MusicAdminComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpModule
   ],
   providers: [],
   bootstrap: [AppComponent]

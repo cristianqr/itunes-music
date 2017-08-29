@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+html{
+  background-color: #FFFDE7;
+}
+.app-wrap{
+  width: 50%;
+  margin: 0px auto;;
+}
+.ta-center{
+  text-align: center;
+}
+.auto-width{
+  width: 1%;
+  white-space: normal;
+}
+
+table{
+  border-collapse: collapse;
+}
+
+.float-left{
+  float: left;
+}
+
+.delete-button{
+  cursor: pointer;
+}
