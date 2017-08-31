@@ -1,6 +1,6 @@
 # ItunesMusic
 
-#Requisitos
+# Requisitos
 1. Tener instalado NodeJs
 2. Tener instalado Angular CLI de manera global: npm i -g @angular/cli
 
