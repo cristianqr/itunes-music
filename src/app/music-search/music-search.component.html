@@ -1,4 +1,4 @@
 <div>
-  <input type="text" value="Jesus adrian romero" (keyup.enter)="searchMusic.emit(search.value)" #search autofocus>
+  <input type="text" placeholder="Ingrese el nombre de un artista" (keyup.enter)="searchMusic.emit(search.value)" #search autofocus>
   <button (click)="searchMusic.emit(search.value)">Buscar</button>
 </div>
